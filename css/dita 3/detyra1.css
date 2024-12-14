@@ -1,0 +1,7 @@
+#div1{ width: 300px;
+border: 30px solid red;
+outline: 30px solid blue;
+outline-offset: 10px;
+margin: auto;
+margin-top: 200px;
+}

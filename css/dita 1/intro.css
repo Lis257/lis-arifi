@@ -1,0 +1,35 @@
+/*selector{deklarimi}*/
+
+/* Universal selector */
+*{ background-color:red;
+color:green}
+/* Tag selector */
+h1{
+    background-color:darkblue;
+
+}
+
+/* Id selector */
+#p1{background-color: antiquewhite;    font-family: sans-serif;
+    font-size:large ;font-style: italic;}
+
+/* Class selector */
+.para{background-color: beige;
+}
+
+/* Descending Selector */
+
+div p{background-color: blueviolet;
+    color: azure;
+font-size:larger ;}
+
+/* Child Selector */
+div>h1{background-color: rgb(19, 52, 162);
+    color: rgb(121, 28, 114);
+font-size:larger ;}
+
+/* Group selector */
+
+h1,h2,button{background-color: rgb(19, 52, 162);
+color: rgb(121, 28, 114);
+font-size:30px ;}
