@@ -1,0 +1,66 @@
+*{background-color: rgb(245, 245, 245);}
+
+
+
+/* font style and family */
+#p1{font-family:Georgia, 'Times New Roman', Times, serif;
+font-style: italic;}
+
+/*Font Variant  */
+#p2{font-variant: small-caps;}
+
+/* Font weight */
+
+#p3{font-weight: bold;}
+
+/* Font Size */
+#p4{font-size: 4vw;}
+
+/* Shorthand */
+#p5{
+    font: bold italic small-caps 10vw georgian;
+    width: 150px;
+}
+
+/* Google Fonts */
+
+
+#p6{
+    font-family: "Playwrite CO Guides", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  /* Text Color and Direction */
+  #p7{ 
+    color: aqua;
+    direction: rtl;
+  }
+
+
+  /* Text Indent */
+  #p8{text-indent: 20px;}
+
+  /* Text spacing */
+
+  #p9{
+    letter-spacing: 5px;
+    word-spacing: 15px;
+    /* white-space:pre ; */
+  }
+
+  /* Text Decoration */
+
+  #p10{
+    text-decoration: underline;
+  }
+
+/* Text Transformation */
+
+#p11{text-transform: capitalize;}
+
+/* Text Shadow */
+
+#p12{font-size: 50px;
+text-shadow: 5px 4px 7px red;
+}
