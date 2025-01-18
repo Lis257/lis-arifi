@@ -1,0 +1,25 @@
+.a1:link{
+    color: blue;
+}
+
+.a1:visited{
+    color: purple;
+}
+
+.a1:hover{
+    color: red;
+    font-size: 25px;
+    background-color: aqua;
+}
+
+.a1:active{
+    color: yellow;
+
+}
+
+#ha:link{ 
+    color:red;
+    text-decoration:none;
+
+}
+#ha:hover{text-decoration: underline;}

@@ -1,0 +1,58 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+
+
+
+
+#input1:focus{
+    background: red;
+    font-size: 25px;
+}
+#input2:disabled{
+    background: darkgoldenrod;
+}
+#input2:enabled{
+    background: red;
+}
+
+.input3:checked{
+    height: 30px;
+    width: 30px;
+}
+
+p:first-of-type{
+    background-color: aqua;
+}
+
+p:last-of-type{
+    background-color: aliceblue;
+}
+
+p:first-child{
+    background: azure;
+}
+p:last-child{background: red;}
+
+p:empty{
+    width:100px;
+    height: 20px;
+    background: navy;
+}
+
+p{
+    color: #000;
+}
+:not(p){
+    /* Per te funksionuar kjo class duhet gjithashtu edhe selectorit te caktuar ti jepet nje beti e caktuar */
+    background-color: lightblue
+}
+p{background-color: blue;}
+
+:root{
+    background-color:blanchedalmond ;
+}
+
+:target{background-color: violet;}
