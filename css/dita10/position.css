@@ -1,0 +1,114 @@
+/* Position of elements */
+*{
+    margin: 0px;
+   padding: 0px;
+}
+/* Normal Flow */
+#p1{
+    border: 1px solid black;
+    width: 200px;
+    height: 100px;
+    position: static;
+}
+#p2{
+    border: 1px solid black;
+    width: 200px;
+    height: 100px;
+    position: static;
+}
+/* Relative Positioning */
+#p3{
+    border: 1px solid black;
+    width: 200px;
+    height: 100px;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+/* Position sticky */
+#p4{
+    border: 1px solid black;
+    width: 200px;
+    height: 100px;
+    position: sticky;
+    top:40px;
+    left: 59px;
+}
+/* Absolute Positioning */
+#p5{
+    border: 1px solid black;
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+#p6{
+    border: 1px solid black;
+    width: 200px;
+    height: 100px;
+    position: static;
+}
+
+#p6{
+    border: 1px solid black;
+    width: 200px;
+    height: 100px;
+    position: static;
+}
+/* Fixed Positioning */
+#p7{
+    border: 1px solid black;
+    width: 200px;
+    height: 100px;
+    position: fixed;
+    bottom: 500px;
+    left: 200px;
+    z-index: 1000;   background-color: blue;
+}
+#p8{
+    border: 1px solid black;
+    width: 200px;
+    height: 100px;
+    position: static;
+ 
+   top: 50px;
+    left: 50px;
+}
+/* Absolute positioning */
+#p9{
+    border: 1px solid black;
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    z-index: 100;
+    top: 50px;
+    left: 50px;
+    background-color: bisque;
+}
+#p10{
+    border: 1px solid black;
+    width: 200px;
+    height: 100px;
+    position: static;
+}
+
+
+#p11{
+    border: 1px solid black;
+    width: 200px;
+    height: 100px;
+
+}
+#p12{
+    border: 1px solid black;
+    width: 200px;
+    height: 100px;
+    position: static;
+}
+#p13{
+    border: 1px solid black;
+    width: 200px;
+    height: 100px;
+    position: static;
+}
