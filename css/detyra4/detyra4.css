@@ -1,0 +1,40 @@
+#divk{
+    width: 500px;
+    height: 700px;
+    border: 10px dotted blue;
+    padding: 20px;
+}
+
+#div1{
+    border-bottom: 5px dotted aqua;
+    height: 350px;
+    float: left;
+}
+#span{
+    font-size: 50px;
+    color: aqua; 
+}
+#input1{
+    width: 450px;
+}
+#input2{
+    width: 450px;
+}
+#lab3{display:inline;
+        width: 200px ;
+    float: left;}
+#lab4{
+    display: inline;
+    width: 70px;
+    float: left;
+}
+#lab5{
+    display: inline;
+    width: 70px;
+    float: left;
+    padding-left: 60px;
+}
+#span2{
+    font-size: 35px;
+    color: aqua; 
+}
