@@ -3,6 +3,7 @@
     height: 700px;
     border: 10px dotted blue;
     padding: 20px;
+    margin: auto;
 }
 
 #div1{
@@ -30,11 +31,88 @@
 }
 #lab5{
     display: inline;
-    width: 70px;
+    width: 70px; 
     float: left;
     padding-left: 60px;
 }
 #span2{
     font-size: 35px;
     color: aqua; 
+}
+#select1{
+    width: 210px;
+    display: block;
+}
+#select2{
+    width: 210px;
+    display: block;
+}
+#select3{
+    width: 100px;
+    float: left;
+
+}
+#select4{
+    width: 100px;
+    margin-left: 10px;
+    float: left;
+}
+#lab6{
+    float: left;
+}
+
+#lab7{
+    float: left;
+}
+
+#select5{
+    width: 210px;
+    display: block;
+   
+}
+#div3{float: left;}
+
+#div4{float:left;
+margin-left: 40px;}
+
+#select6{
+    width: 210px;
+    display: block;
+   
+}
+
+#lab9{
+    float: left;
+}
+
+#lab8{
+    float: left;
+}
+
+#select7{
+    width: 100px;
+    display: block;
+  
+}
+#select8{
+    width: 100px;
+    display: block;
+    margin-left: 10px;
+}
+
+#but1{
+    width: 500px;
+    height: 60px;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 50px;
+}
+
+#div5{
+    float: left;
+   
+
 }
