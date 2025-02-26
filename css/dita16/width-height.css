@@ -1,0 +1,21 @@
+#p1{
+    width: 100%;
+    border: 2px solid black;
+    height: auto;
+}
+#p11{
+    max-width: 1000px;
+    min-width: 700px;
+    border: 2px solid rgb(218, 24, 24);
+    height: 100px;
+}
+#p2{
+    /* max-width: 1000px;
+    min-width: 700px; */
+    border: 2px solid rgb(218, 24, 24);
+    /* height: 100px; */
+    max-height: 500px;
+    min-height: 300px;
+    width: 100px;
+    overflow: auto;
+}
