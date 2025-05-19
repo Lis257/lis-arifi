@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var x = prompt("Sheno nje numer: ");
+        var y = parseFloat(x);
+        var z = y % 2;
+        document.write("<br>");
+
+        if(z == 0){
+            document.write("Numri jot eshte numer qift");
+        }
+        else if (y == 0)
+        {document.write("Numri eshte neutral");}
+        else{
+            document.write("Numri jot eshte numer tek");
+        }
+    </script>
+    <br>
+    <script>
+        var x = prompt("Sheno nje numer: ");
+        var y = parseFloat(x);
+        if(y > 0){
+            document.write("Vlera e variables eshte pozitive");
+        }
+        else if(y < 0){
+            document.write("Vlera e variables eshte negative");
+        }
+        else{
+            document.write("Vlera e variables eshte 0");
+        }
+    </script>
+    <br><br>        
+    <script>
+        var numrat = [ 1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 ];
+        numrat.sort()
+        document.write(numrat);
+        document.write("<br>" + "<br>");
+        var x = numrat[0];
+        document.write(x);
+        document.write("<br>" + "<br>");
+        if(x < 2){
+            document.write("vlera eshte me e vogel se 2");
+        }
+        else if(x >= 2 && x < 6){
+            document.write("Vlera eshte me e madhe ose e barabart me 2 dhe me e vogel se 6");
+        }
+        else if(x == 7){
+            document.write("Vlera eshte e barabart me 7");
+        }
+        else{
+            document.write("Vlera eshte me e madhe se 7 ose e barabart me 9");
+        }
+        
+    </script>
+    <script>
+        var x = prompt('Shenoje ketu numrin');
+        var y = parseFloat(x);
+        switch(x) // Tek switch e caktojme shprehjen, ne rastin ton variablen 'x'
+        {
+            case 1:   // Tek case i caktojme qfare vlera mundet me pas variabla 'x.
+                document.write("Janar"); // Brenda case e nxjerrim rezultatin
+                break;		// Break na mundeson qe te e ndalim ekzekutimin e kodit kur plotesohet kushti
+                //Break na kursen kohen me te madhe kur nuk kemi nevoj me i ekzekutue rreshtat nen zgjidhje
+                    
+            case 2:
+                document.write("Shkurt"); //';' Nuk bajne problem po eshte mire mos me i perdor
+                break;
+            
+            case 3:
+                document.write("i treti")
+                break; //Nese nuk perdoret break prej case ku eshte i sakte ekzistohen te gjithe case tjere deri ne case e fundit.
+                
+            case 4:
+                document.write("i katerti")
+                //break;   //Ne fund mund edhe te mos e perdorim break pasi qe edhe ashtu kodi perfundon
+                
+            default:   //Default perdoret per te paraqitur nje rezultat nese nuk ka perputhje me case e me siperm
+                document.write("asnjëri")
+        }
+    </script>
+</body>
+</html>
