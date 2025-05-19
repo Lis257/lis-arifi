@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+ 
+   for(x=1;x<=10;x++){
+            document.write("Numri: " + x + "<br>");
+        }
+    </script>
+    <br>
+    <hr>
+    <br>
+    <script>
+        for(x=1;x<=10;x++){
+    
+            document.write(x + "x" + "5" + "=" + x*5 + "<br>");
+        }
+    </script>
+    <br>
+    <hr>
+    <br>
+    <p id="p2"; style="color: red;"></p>
+    
+    <script>
+        var vargu = ['Ferizaj','Prizren','Gjakove','Malisheve','Rahovec','Prishtina ', 'Peja']
+        var y = vargu.length;
+        var z ='';
+        var a = vargu.sort()
+        for(x=0;x<y;x++)
+    {
+        z+=vargu[x]+'<br>';
+    }
+    document.getElementById('p2').innerHTML = z 
+    </script>
+    <br>
+    <hr>
+    <br>
+     <p id="p3";></p>
+    
+     <script>
+         var vargu = ['Ferizaj','Prizren','Gjakove','Malisheve','Rahovec','Prishtina ', 'Peja']
+         var y = vargu.length;
+         var z ='';
+         var a = vargu.sort()
+         for(x=0;x<y;x++)
+     {
+         z+=vargu[x]+ " eshte " +  ( x + 1 ) +  '<br>';
+     }
+     document.getElementById('p3').innerHTML = z 
+     </script>
+     <br>
+     <hr>
+     <br>
+     <p id="p4";></p>
+    
+     <script>
+         var vargu = ['Ferizaj','Prizren','Gjakove','Malisheve','Rahovec','Prishtina ', 'Peja']
+         var y = vargu.length;
+         var z ='';
+         var a = vargu.reverse()
+         for(x=0;x<y;x++)
+     {
+         z+=vargu[x]+ " eshte " +  ( x + 1 ) +  '<br>';
+     }
+     document.getElementById('p4').innerHTML = z 
+     </script>
+</body>
+</html>
